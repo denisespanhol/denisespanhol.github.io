@@ -1,0 +1,27 @@
+.font-press-start {
+    font-family: "Press Start 2P", sans-serif;
+}
+
+.font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.yellow {
+    color: rgb(123, 223, 242);
+}
+
+.somecolor {
+    color: rgb(242, 181, 212);
+}
+
+body {
+    background-color: rgb(239, 247, 246);
+}
+
+.centralizing {
+    text-align: center;
+}
+
+.circling {
+    border-radius: 50%;
+}
