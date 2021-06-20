@@ -25,3 +25,8 @@ body {
 .circling {
     border-radius: 50%;
 }
+
+div:nth-of-type(2) {
+    padding: auto;
+    color
+}
