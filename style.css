@@ -28,52 +28,15 @@ body {
     background-color:rgb(239, 247, 246);
 }
 
-div:nth-of-type(2) {
+.position-image {
+    position: relative;
+    top: 50px;
+}
+
+div:nth-of-type(2){
     padding: 10px;
     background-color: rgb(123, 223, 242);
     font-family: "Press Start 2P", sans-serif;
     color: rgb(242, 181, 212);
-    float: inherit;
-}
-
-.gamer {
-    position: absolute;
-    top: 15%;
-    left: 5%;
-    font-size: 40px;
-}
-
-.programmer {
-    position: absolute;
-    top: 29.5%;
-    left: 17%;
-    font-size: 35px;
-}
-
-.artist {
-    position: absolute;
-    top: 41.5%;
-    left: 5%;
-    font-size: 38px;
-}
-
-.writer {
-    position: absolute;
-    top: 17%;
-    right: 5%;
-    font-size: 40px;
-}
-
-.actor {
-    position: absolute;
-    top: 29.5%;
-    right: 26.8%;
-    font-size: 39px;
-}
-
-.curious {
-    position: absolute;
-    top: 41.5%;
-    right: 5%;
-    font-size: 38px;
+    word-wrap: break-word;
 }
