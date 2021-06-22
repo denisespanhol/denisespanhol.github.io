@@ -1,8 +1,36 @@
-.font-press-start {
-    font-family: "Press Start 2P", sans-serif;
+body {
+    background-color: rgb(171, 196, 255);
 }
 
-.font-roboto {
+h1 {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+}
+
+p, li {
     font-family: "Roboto", sans-serif;
 }
 
+header {
+    text-align: center;
+    background-color: rgb(237, 242, 251);
+    color: rgb(171, 196, 255)
+}
+
+header ul {
+    display: inline-block;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+header li:hover {
+    background-color: rgb(171, 196, 255);
+    color: rgb(237, 242, 251);
+}
